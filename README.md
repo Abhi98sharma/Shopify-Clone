@@ -12,7 +12,10 @@ Created Shopify-Clone using Tailwind CSS.
 
 
 ## Fully Responsive:
-[Website Link](https://shopify-clone-fs-js.netlify.app/)
+###  [Website Link](https://shopify-clone-fs-js.netlify.app/)
+
+## Screenshot:
+![](./assets/screenshot/shopify-clone-screenshot.png)
 
 ***Note: Resolving a few small bugs remaining***
 

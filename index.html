@@ -27,26 +27,31 @@
 
   <body class="bg-backWhite">
     <!-- Navbar Section -->
-    <header class="container relative" id="top">
+    <header class="container relative " id="top">
       <div class="navbar  ">
-        <nav class="relative flex justify-between items-center max-w-full my-5 mx-5 md:mx-20 ">
+        <nav class="relative flex justify-between items-center max-w-full my-5 mx-5 md:mx-20">
           <div class="img">
             <img class="w-[120px]" src="./assets/navimg/Shopify_logo.svg" alt="">
           </div>
-          <ul class="hidden md:mr-64 items-center space-x-5 md:flex text-xl">
-            <li class="hover:text-gray-500">Start</li>
-            <li class="hover:text-gray-500">Sell</li>
-            <li class="hover:text-gray-500">Market</li>
-            <li class="hover:text-gray-500">Manage</li>
+          <ul class="hidden md:mr-64 items-center space-x-5 md:flex text-lg">
+            <li class="hover:text-gray-500">Start<i class="fa-solid fa-angle-down ml-1 text-[17px] text-[#767f88]"></i>
+            </li>
+            <li class="hover:text-gray-500">Sell<i class="fa-solid fa-angle-down ml-1 text-[17px] text-[#767f88]"></i>
+            </li>
+            <li class="hover:text-gray-500">Market<i class="fa-solid fa-angle-down ml-1 text-[17px] text-[#767f88]"></i>
+            </li>
+            <li class="hover:text-gray-500">Manage<i class="fa-solid fa-angle-down ml-1 text-[17px] text-[#767f88]"></i>
+            </li>
           </ul>
-          <ul class="flex items-center space-x-5 md:ml-72 text-xl ">
+          <ul class="flex items-center space-x-5 md:ml-72 text-lg">
             <li class="hidden hover:text-gray-500 md:flex">Pricing</li>
-            <li class="hidden hover:text-gray-500 md:flex">Learn</li>
+            <li class="hidden hover:text-gray-500 md:flex">Learn<i
+                class="fa-solid fa-angle-down pl-1 mt-[6px] text-[17px] text-[#767f88]"></i></li>
             <li class="block hover:text-gray-500">Log in</li>
             <li class="md:hidden"><i class="fa-solid fa-bars text-xl"></i></li>
           </ul>
           <button
-            class="hidden md:flex text-md text-white p-3 rounded-md bg-lightGreen shadow-inner font-semibold hover:bg-darkGreen">Try
+            class="hidden md:flex text-md text-white p-3 rounded-md bg-lightGreen shadow-inner hover:bg-darkGreen">Try
             for free</button>
         </nav>
       </div>
@@ -60,16 +65,20 @@
             <h3 class="text-lg md:text-xl">Try one of the most powerful platforms on the market for free. No technical
               knowledge
               needed.</h3>
-            <div class=" flex flex-col md:flex md:flex-row py-3 items-center md:space-x-5">
-              <input
-                class="p-4 mb-3 w-full md:w-96 block md:px-3 bg-white border-[1px]  border-black  rounded-md text-lg shadow-sm placeholder-slate-400"
-                type="text" placeholder="Enter your email address">
-              <button
-                class="w-full md:w-40 md:inline-block text-md text-white p-4 text-center rounded-md bg-lightGreen shadow-inner font-semibold hover:bg-darkGreen">Try
-                for free</button>
+            <div class="flex items-center flex-wrap gap-4">
+              <input type="text" placeholder="Enter your email address"
+                class="min-w-[250px] block shrink-0 py-[14px] px-[15px] border-[1.8px] rounded-md focus:border-[2.5px] focus:border-[#038d76] outline-none border-gray-400 grow-[999]" />
+              <span
+                class="flex items-center gap-2 w-full md:w-40  justify-center text-center cursor-pointer text-[16px]  bg-lightGreen hover:bg-darkGreen hover:shadow-xl duration-200 text-white box-border rounded-[4px] px-[24px] py-[14px] shadow-lg">
+                <button class="block">Try for free</button>
+              </span>
+
+              <p class="text-sm text-[#42474c] mt-2">
+                Try Shopify free for 14 days, no credit card
+                required. By entering your email, you agree
+                to receive marketing emails from Shopify.
+              </p>
             </div>
-            <small>Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive
-              marketing emails from Shopify.</small>
           </div>
         </div>
         <div class="md:w-1/2">
@@ -310,49 +319,52 @@
         </li>
       </ul>
     </section>
-    <!-- testimonials-2 section -->
+    <!-- help-section -->
     <section class="bg-cream">
       <div class="flex flex-col md:flex-row">
-        <div class="md:w-1/2 px-5 md:px-24 pt-16">
+        <div class="md:w-1/2 px-4 md:px-24 pt-8">
           <div class="w-96">
-            <h1 class="text-4xl">Get the help you need, every step of the way</h1>
-            <div class="flex py-8 flex-wrap gap-20">
+            <h1 class="text-4xl md:w-[130%]">Get the help you need, every step of the way</h1>
+            <div class="flex mb-4 mt-8 flex-wrap gap-20">
               <div class="flex flex-col space-y-3">
                 <h1 class="font-bold text-md">Shopify support</h1>
                 <p class="w-64 opacity-50">Contact support 24/7, whether you are troubleshooting issues or looking for
                   business advice.</p>
                 <a href="#"
-                  class=" text-lightGreen pb-5 block font-bold transition-transform ease-in-out after:inline-block after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:delay-200 hover:after:ease-in-out">Contact Support</a>
+                  class=" text-lightGreen pb-5 block font-bold transition-transform ease-in-out after:inline-block after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:delay-200 hover:after:ease-in-out">Contact
+                  Support</a>
               </div>
             </div>
-            <div class="flex py-8 flex-wrap gap-20">
+            <div class="flex my-4 flex-wrap gap-20">
               <div class="flex flex-col space-y-3">
                 <h1 class="font-bold text-md">Shopify App Store</h1>
                 <p class="w-64 opacity-50">Add features and functionality to your business with 6,000+ apps that
                   integrate
                   directly with Shopify.</p>
                 <a href="#"
-                  class=" text-lightGreen pb-5 block font-bold transition-transform ease-in-out after:inline-block after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:delay-200 hover:after:ease-in-out">Visit the Shopify App Store</a>
+                  class=" text-lightGreen pb-5 block font-bold transition-transform ease-in-out after:inline-block after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:delay-200 hover:after:ease-in-out">Visit
+                  the Shopify App Store</a>
               </div>
             </div>
-            <div class="flex py-8 flex-wrap gap-20">
+            <div class="flex my-4 flex-wrap gap-20">
               <div class="flex flex-col space-y-3">
                 <h1 class="font-bold text-md">Shopify Experts Marketplace</h1>
                 <p class="w-64 opacity-50">Hire a Shopify expert to help you with everything from store setup to SEO.
                 </p>
                 <a href="#"
-                  class=" text-lightGreen pb-5 block font-bold transition-transform ease-in-out after:inline-block after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:delay-200 hover:after:ease-in-out">Explore the Shopify Experts Marketplace</a>
+                  class=" text-lightGreen pb-5 block font-bold transition-transform ease-in-out after:inline-block after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:delay-200 hover:after:ease-in-out">Explore
+                  the Shopify Experts Marketplace</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 w-[100%] h-[100%] md:bg-cover">
           <img src="./assets/testimg/help@desktop-2.jpg" alt="">
         </div>
       </div>
     </section>
     <!-- free trail section -->
-    <section class="bg-white text-center p-12 md:p-24 relative">
+    <section class="bg-white text-center px-4 py-20 md:p-24 relative">
       <div class="flex flex-col justify-center items-center space-y-5">
         <h1 class="text-2xl md:text-3xl">Start your business journey with Shopify</h1>
         <p class="text-[16px] md:text-xl opacity-60">Try Shopify for free, and explore all the tools and services you
@@ -363,9 +375,9 @@
         <button
           class="md:flex text-md text-white p-4 rounded-md bg-lightGreen shadow-inner font-semibold hover:bg-darkGreen">Start
           Free Trail</button>
-        <div class="text-right md:mb-8 absolute right-0 md:top-72 top-[17.5rem]">
-          <a class="text-darkGreen md:pr-10 pr-3 font-bold" href="#top">Back to top<i class="pl-2 fa-solid fa-arrow-up"
-              id="#top"></i></a>
+        <div class="text-right md:mb-8 absolute md:right-0 md:top-72 top-[21rem]">
+          <a class="text-darkGreen md:pr-10 pr-4 text-sm font-bold" href="#top">Back to top<i
+              class="ml-2 fa-solid fa-arrow-up text-[15px]" id="#top"></i></a>
         </div>
       </div>
     </section>
@@ -375,15 +387,25 @@
       <div class="px-12 md:px-20 pt-8">
         <nav class="text-white font-bold md:text-center ">
           <ul class="hidden md:flex space-x-5">
-            <li class="hover:opacity-50">About</li>
-            <li class="hover:opacity-50">Careers</li>
-            <li class="hover:opacity-50">Press and Media</li>
-            <li class="hover:opacity-50">Shopify Plus</li>
-            <li class="hover:opacity-50">Sitemap</li>
+            <li class="hover:opacity-70"><a
+                class="border-b-[2px] border-[#002e25]  hover:border-b-[#FFFFFF] transition-all duration-300 text-[1em] inline-block"
+                href="#">About</a></li>
+            <li class="hover:opacity-70"><a
+                class="border-b-[2px] border-[#002e25]  hover:border-b-[#FFFFFF] transition-all duration-300 text-[1em] inline-block"
+                href="#">Careers</a></li>
+            <li class="hover:opacity-70"><a
+                class="border-b-[2px] border-[#002e25]  hover:border-b-[#FFFFFF] transition-all duration-300 text-[1em] inline-block"
+                href="#">Press and Media</a></li>
+            <li class="hover:opacity-70"><a
+                class="border-b-[2px] border-[#002e25]  hover:border-b-[#FFFFFF] transition-all duration-300 text-[1em] inline-block"
+                href="#">Shopfiy Plus</a></li>
+            <li class="hover:opacity-70"><a
+                class="border-b-[2px] border-[#002e25]  hover:border-b-[#FFFFFF] transition-all duration-300 text-[1em] inline-block"
+                href="#">Sitemap</a></li>
           </ul>
         </nav>
       </div>
-      <hr class="hidden md:flex md:my-10 md:w-[90%] md:ml-20 border-gray-200 opacity-40">
+      <hr class="hidden md:flex md:my-5 md:w-[90%] md:ml-20 border-gray-200 opacity-40">
       <div class="container px-20 py-4 mx-auto">
         <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
           <div class="lg:w-1/6 md:w-1/2 w-full px-4">
@@ -523,40 +545,62 @@
           </div>
         </div>
       </div>
-      <hr class="hidden md:flex border-gray-200 opacity-40">
-      <div class="border-t border-gray-800">
-        <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
-          <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-            <a class="text-gray-400">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-                viewbox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-400">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-                viewbox="0 0 24 24">
+      <div class="py-[2.2em] border-t mt-[28px] border-[rgba(210,213,217,0.1)]">
+        <div class="flex flex-wrap justify-center gap-4 md:justify-between items-center px-12">
+          <div class="flex flex-wrap">
+            <a href="#" class="w-[22px] block mr-[20px]"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 30 30">
                 <path
-                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  d="M15.6 30V19.4h5V15h-5v-3.1c0-1 .6-1.9 1.3-1.9h3.8V5.6h-3.8c-3.1 0-5.6 2.8-5.6 6.3V15H7.5v4.4h3.8v10.1C4.8 27.9 0 22 0 15 0 6.7 6.7 0 15 0s15 6.7 15 15c0 8.1-6.4 14.7-14.4 15z">
                 </path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-400">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-5 h-5" viewbox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-400">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="0" class="w-5 h-5" viewbox="0 0 24 24">
-                <path stroke="none"
-                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-          </span>
+              </svg></a>
+            <a href="#" class="w-[22px] block mr-[20px]"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 30 30">
+                <path
+                  d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zm-3.7-5.5c-.8.3-1.6.6-2.5.7.9-.5 1.5-1.4 1.8-2.4-.8.5-1.7.8-2.7 1-.8-.8-1.9-1.4-3.1-1.4-2.4 0-4.2 1.9-4.2 4.3 0 .3 0 .7.1 1-3.5-.2-6.7-1.9-8.8-4.5-.3.7-.6 1.4-.6 2.2 0 1.5.7 2.8 1.9 3.5-.7 0-1.4-.2-1.9-.5 0 2.1 1.5 3.8 3.4 4.2-.3.1-.7.1-1.1.1-.3 0-.6 0-.8-.1.5 1.7 2.1 2.8 4 2.9-1.5 1.1-3.3 1.9-5.3 1.9-.3 0-.7 0-1-.1 1.9 1.2 4.1 1.9 6.5 1.9 7.8 0 12.1-6.5 12.1-12.1v-.6c.9-.4 1.6-1.2 2.2-2z">
+                </path>
+              </svg></a>
+            <a href="#" class="w-[22px] block mr-[20px]"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 30 30">
+                <path
+                  d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zm-5.6 0c0-6.9 0-6.9-9.4-6.9s-9.4 0-9.4 6.9 0 6.9 9.4 6.9 9.4 0 9.4-6.9zm-11.9-3.7l6.3 3.8-6.3 3.8v-7.6z">
+                </path>
+              </svg></a>
+            <a href="#" class="w-[22px] block mr-[20px]"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 18 18">
+                <defs></defs>
+                <path fill-rule="evenodd"
+                  d="M9 0c5 0 9 4 9 9s-4 9-9 9-9-4-9-9 4-9 9-9zM6.7 3.5h4.7c1.8 0 3.2 1.4 3.2 3.1v4.7c0 1.7-1.4 3.1-3.2 3.1H6.7c-1.8 0-3.2-1.4-3.2-3.1V6.7c0-1.8 1.4-3.2 3.2-3.2zM9 6.2c1.6 0 2.9 1.3 2.9 2.9S10.6 12 9 12s-3-1.3-3-2.9 1.3-2.9 3-2.9zm0 1.2c.9 0 1.7.8 1.7 1.7 0 .9-.8 1.7-1.7 1.7-.9 0-1.7-.8-1.7-1.7 0-.9.7-1.7 1.7-1.7zm2.8-1.7c.3 0 .6.2.6.6 0 .3-.2.6-.6.6-.3 0-.6-.2-.6-.6 0-.4.3-.6.6-.6zm-4.6-1h3.7c1.4 0 2.5 1.1 2.5 2.5v3.7c0 1.4-1.1 2.5-2.5 2.5H7.2c-1.4 0-2.5-1.1-2.5-2.5V7.2c-.1-1.4 1.1-2.5 2.5-2.5z"
+                  clip-rule="evenodd"></path>
+              </svg></a>
+            <a href="#" class="w-[22px] block mr-[20px]"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 30 30">
+                <path
+                  d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zM11.3 7.8c0-1.2-1-2.2-2.5-2.2s-2.5.9-2.5 2.2c0 1.2 1 2.2 2.5 2.2s2.5-1 2.5-2.2zm-.7 4.1H6.9v10.6h3.8V11.9zm13.8 5c0-3.4-1.7-5.6-4.4-5.6-1.5 0-2.6.9-3.1 2.3l-.1-1.6H13c0 .4.1 2.5.1 2.5v8.1h3.8V17c0-1.5.7-2.5 1.8-2.5s1.9.6 1.9 2.5v5.6h3.8v-5.7z">
+                </path>
+              </svg></a>
+            <a href="#" class="w-[22px] block mr-[20px]"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 30 30">
+                <path
+                  d="M15 30c-1.5 0-2.9-.2-4.3-.6.6-.9 1.2-2 1.5-3.2.2-.7 1-4.1 1-4.1.5 1 2 1.9 3.7 1.9 4.8 0 8.1-4.4 8.1-10.3 0-4.4-3.8-8.6-9.5-8.6-7.1-.1-10.6 5-10.6 9.3 0 2.6 1 4.9 3.1 5.7.3.1.7 0 .8-.4.1-.2.2-.9.3-1.2.1-.4 0-.5-.2-.8-.6-.7-1-1.6-1-3 0-3.8 2.8-7.2 7.4-7.2 4 0 6.2 2.5 6.2 5.8 0 4.3-1.9 8-4.8 8-1.6 0-2.7-1.3-2.4-2.9.5-1.9 1.3-4 1.3-5.3 0-1.2-.7-2.3-2-2.3-1.6 0-2.9 1.7-2.9 3.9 0 1.4.5 2.4.5 2.4S9.5 24 9.3 25.3c-.3 1.1-.4 2.4-.3 3.5-5.3-2.4-9-7.7-9-13.8C0 6.7 6.7 0 15 0s15 6.7 15 15-6.7 15-15 15z">
+                </path>
+              </svg></a>
+          </div>
+          <div class="md:flex justify-end items-center hidden">
+            <a class="inline-block mr-[20px] text-[#B6BABF]" href="#">Terms of Service</a>
+            <a class="inline-block mr-[20px] text-[#B6BABF]" href="#">Privacy Policy</a>
+            <span class="text-[#B6BABF] ">
+              <span class="inline-block w-[16px]"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 45 45">
+                  <path fill="#FFFFFF"
+                    d="M22.5 2A20.5 20.5 0 1043 22.5 20.52 20.52 0 0022.5 2zm-4.23 28.79A33.67 33.67 0 0022 31a34.54 34.54 0 004.76-.33 30.45 30.45 0 01-4.26 9 30.41 30.41 0 01-4.23-8.88zM22 28a29.86 29.86 0 01-4.47-.34A31 31 0 0117 22a29.87 29.87 0 01.36-4.64A30.13 30.13 0 0122 17a31 31 0 015.66.53A29.85 29.85 0 0128 22a31 31 0 01-.5 5.5 31 31 0 01-5.5.5zm-7.64-1a25.22 25.22 0 01-9.15-4.5 24.89 24.89 0 019-4.48A33.56 33.56 0 0014 22a34.61 34.61 0 00.36 5zM22.5 5.21a25.25 25.25 0 014.5 9.15 34.61 34.61 0 00-5-.36 33.58 33.58 0 00-4 .24 25.24 25.24 0 014.5-9.03zm8.29 13.06a30.41 30.41 0 018.89 4.23 30.46 30.46 0 01-9 4.26A34.54 34.54 0 0031 22a33.67 33.67 0 00-.21-3.73zm8.82.59A33.75 33.75 0 0030.26 15a29.2 29.2 0 00-3.89-9.56 17.54 17.54 0 0113.24 13.42zm-21-13.41a29.16 29.16 0 00-3.85 9.35 29.16 29.16 0 00-9.35 3.85A17.54 17.54 0 0118.64 5.44zM5.44 26.36a29.2 29.2 0 009.56 3.9 33.75 33.75 0 003.86 9.36A17.54 17.54 0 015.44 26.36zm20.7 13.25a33.73 33.73 0 003.91-9.56 33.73 33.73 0 009.56-3.91 17.55 17.55 0 01-13.47 13.47z">
+                  </path>
+                </svg></span>
+              <span>India</span>
+              <span class="inline-block w-[16px]"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 5">
+                  <path fill="#FFFFFF" d="M0 0l5 5 5-5H0z"></path>
+                </svg></span>
+            </span>
+          </div>
         </div>
       </div>
     </footer>
