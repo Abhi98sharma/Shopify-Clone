@@ -6,16 +6,15 @@ Created Shopify-Clone using Tailwind CSS.
 
 ![Hitesh Choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 
-![Name](https://img.shields.io/badge/Project%20Made%20by-Abhijeet%20Sharma-yellow)
+![Name](https://img.shields.io/badge/Project%20Made%20by-Abhijeet%20Sharma-white)
 
 ![Tech Stack](https://img.shields.io/badge/Tech%20Stack-HTML5%20%7C%20TailwindCSS-blue)
 
-
-## Fully Responsive:
-###  [Website Link](https://shopify-clone-fs-js.netlify.app/)
+## Website Link (Responsive):
+###  [Live](https://shopify-clone-fs-js.netlify.app/)
 
 ## Screenshot:
-![](./assets/screenshot/shopify-clone-screenshot.png)
+![](./screenshot/shopify-clone-screenshot.png)
 
 ***Note: Resolving a few small bugs remaining***
 
