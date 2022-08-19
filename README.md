@@ -11,10 +11,18 @@ Created Shopify-Clone using Tailwind CSS.
 ![Tech Stack](https://img.shields.io/badge/Tech%20Stack-HTML5%20%7C%20TailwindCSS-blue)
 
 ## Website Link (Responsive):
-###  [Live](https://shopify-clone-fs-js.netlify.app/)
+### [Live](https://shopify-clone-fs-js.netlify.app/)
+
+## Skills Gained in this project:
+   - Tailwind
+   - Tailwind's Components
+   - Button styling and animation effect
+   - Grid
+   - Media queries breakpoints from Tailwind CSS for mobile responsiveness
 
 ## Screenshot:
-![](./screenshot/shopify-clone-screenshot.png)
+
+![shopify-clone-image](https://user-images.githubusercontent.com/107188710/185665638-ef0eba53-798e-4a4c-af1e-e1b7f383273b.png)
 
 ***Note: Resolving a few small bugs remaining***
 
