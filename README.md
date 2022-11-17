@@ -1,3 +1,6 @@
+>***DISCLAIMER***: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.
+
+
 # Shopify-Clone
 ## FULL STACK JS Assignment
 Created Shopify-Clone using Tailwind CSS.
@@ -24,7 +27,7 @@ Created Shopify-Clone using Tailwind CSS.
 
 ![shopify-clone-image](https://user-images.githubusercontent.com/107188710/185665638-ef0eba53-798e-4a4c-af1e-e1b7f383273b.png)
 
->***DISCLAIMER***: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.
+
 
 
 
